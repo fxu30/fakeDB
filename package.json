@@ -2,11 +2,11 @@
   "name": "fakedb",
   "version": "1.0.0",
   "description": "json server mock db",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "json:server": "json-server --watch db.json"
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Frank Xu",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
